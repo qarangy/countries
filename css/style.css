@@ -229,14 +229,12 @@ a {
 }
 
 .index-country-name {
+    display: inline-block;
     margin: 0;
     margin-bottom: 16px;
     font-size: 18px;
     line-height: 26px;
     font-weight: 800;
-}
-
-.index-country-name {
     transition: transform 0.3s ease;
 }
 
