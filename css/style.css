@@ -146,3 +146,35 @@ img {
     line-height: normal;
     color: var(--text-color);
 }
+
+
+/* MAIN CONTENT */
+.main-content {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+/* FILTERS */
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter-search-input {
+    min-width: 480px;
+    padding: 18px 74px;
+    color: var(--text-color);
+    background-color: var(--elemen-bg);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+.filters-region-select {
+    min-width: 200px;
+    padding: 18px 24px;
+    color: var(--text-color);
+    background-color: var(--elemen-bg);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
